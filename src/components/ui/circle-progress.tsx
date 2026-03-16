@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 interface CircleProgressProps {
-  value: number; // 0-100
+  value: number;
   size?: number;
   strokeWidth?: number;
   className?: string;
@@ -30,7 +30,7 @@ export function CircleProgress({
           cy={size / 2}
           r={radius}
           fill="none"
-          stroke="#27272a" // zinc-800
+          stroke="#27272a"
           strokeWidth={strokeWidth}
         />
         <circle
@@ -38,7 +38,7 @@ export function CircleProgress({
           cy={size / 2}
           r={radius}
           fill="none"
-          stroke="#34d399" // emerald-400 — matches your green
+          stroke="#34d399"
           strokeWidth={strokeWidth}
           strokeDasharray={circumference}
           strokeDashoffset={offset}
