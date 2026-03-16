@@ -1,0 +1,1 @@
+export const GENERATION_TIME_SECONDS = 4;
