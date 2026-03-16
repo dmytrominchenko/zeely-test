@@ -14,7 +14,7 @@ export function ImageCard({ bg, index, isSelected }: IProps) {
       id={`bg-${bg.id}`}
       aria-label={`Background ${index + 1}${bg.isDefault ? ", default" : ""}`}
       className={`relative w-[112px] h-[198px] rounded-lg overflow-hidden group transition-all cursor-pointer
-                ${isSelected ? "" : "hover:scale-105"}`}
+                ${isSelected ? "" : "hover:opacity-90"}`}
     >
       <img
         src={bg.url}
